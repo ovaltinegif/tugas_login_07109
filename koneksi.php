@@ -1,8 +1,8 @@
 <?php
 $host = "localhost";
-$user = "root"; // Default XAMPP tidak pakai password
-$pass = ""; // Kosongkan jika pakai XAMPP
-$db   = "login_07109"; // Nama database yang kamu buat
+$user = "root"; 
+$pass = ""; 
+$db   = "login_07109"; 
 
 $conn = new mysqli($host, $user, $pass, $db);
 
